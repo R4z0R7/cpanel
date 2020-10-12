@@ -1,0 +1,6 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/borislav/test1
+ - mkdir -p $DEPLOYPATH
+ - /bin/cp index.php $DEPLOYPATH
